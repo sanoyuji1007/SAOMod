@@ -54,6 +54,10 @@ public class SaoMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(SaoModItems.RAW_ORIHALCON);
         }
+        //  もし開いているタブが「材料」タブだったら、オリハルコン・インゴットを表示
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(SaoModItems.ORIHALCON_INGOT);
+        }
     }
 
 
