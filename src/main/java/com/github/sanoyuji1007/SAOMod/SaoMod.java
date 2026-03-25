@@ -2,7 +2,10 @@ package com.github.sanoyuji1007.SAOMod;
 
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -49,6 +52,10 @@ public class SaoMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        //  もし開いているタブが「材料」タブだったら、オリハルコンの原石を表示
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(SaoModItems.RAW_ORIHALCON);
+        }
     }
 
 
