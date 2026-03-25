@@ -13,6 +13,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+//TODO: コメントの追加
+
 @Mod(SaoMod.MOD_ID)
 public class SaoMod
 {
