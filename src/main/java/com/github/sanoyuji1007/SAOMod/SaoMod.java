@@ -47,17 +47,12 @@ public class SaoMod
     {
     }
 
-
+    //  クリエイティブタブにアイテムを追加
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        //  クリエイティブタブにオリハルコンの原石を追加
-        //  もし開いているタブが「材料」タブだったら、オリハルコンの原石を表示
+        //  もし開いているタブが「材料」タブだったら、アイテムを表示
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(SaoModItems.RAW_ORIHALCON);
-        }
-        //  クリエイティブタブにオリハルコン・インゴットを追加
-        //  もし開いているタブが「材料」タブだったら、オリハルコン・インゴットを表示
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(SaoModItems.ORIHALCON_INGOT);
         }
     }
