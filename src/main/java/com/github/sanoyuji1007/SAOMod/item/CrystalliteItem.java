@@ -34,7 +34,7 @@ public class CrystalliteItem extends Item {
         switch (type) {
             case HEAL -> heal(player);
             case FIRE -> castFire(world, player);
-            case ICE -> castIce(world, player);
+            //case ICE -> castIce(world, player);
             case THUNDER -> castThunder(world, player);
             case SPEED -> player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1));
             case JUMP -> player.addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 2));
