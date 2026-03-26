@@ -15,6 +15,23 @@ public class SaoModItems {
     public static final RegistryObject<Item> RAW_ORIHALCON = ITEMS.register("raw_orihalcon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ORIHALCON_INGOT = ITEMS.register("orihalcon_ingot", () -> new Item(new Item.Properties()));
 
+    //  結晶シリーズの登録
+    public static final RegistryObject<Item> HEAL_CRYSTAL = ITEMS.register("heal_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.HEAL));
+
+    public static final RegistryObject<Item> FIRE_CRYSTAL = ITEMS.register("fire_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.FIRE));
+
+    public static final RegistryObject<Item> ICE_CRYSTAL = ITEMS.register("ice_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.ICE));
+
+    public static final RegistryObject<Item> THUNDER_CRYSTAL = ITEMS.register("thunder_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.THUNDER));
+
+    public static final RegistryObject<Item> SPEED_CRYSTAL = ITEMS.register("speed_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.SPEED));
+
+    public static final RegistryObject<Item> JUMP_CRYSTAL = ITEMS.register("jump_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.JUMP));
+
+    public static final RegistryObject<Item> INVISIBLE_CRYSTAL = ITEMS.register("invisible_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.INVISIBLE));
+
+    public static final RegistryObject<Item> EXPLOSION_CRYSTAL = ITEMS.register("explosion_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.EXPLOSION));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

@@ -56,6 +56,14 @@ public class SaoMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(SaoModItems.RAW_ORIHALCON);
             event.accept(SaoModItems.ORIHALCON_INGOT);
+            event.accept(SaoModItems.HEAL_CRYSTAL);
+            event.accept(SaoModItems.FIRE_CRYSTAL);
+            event.accept(SaoModItems.ICE_CRYSTAL);
+            event.accept(SaoModItems.THUNDER_CRYSTAL);
+            event.accept(SaoModItems.SPEED_CRYSTAL);
+            event.accept(SaoModItems.JUMP_CRYSTAL);
+            event.accept(SaoModItems.INVISIBLE_CRYSTAL);
+            event.accept(SaoModItems.EXPLOSION_CRYSTAL);
         }
     }
 
