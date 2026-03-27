@@ -2,6 +2,7 @@ package com.github.sanoyuji1007.SAOMod;
 
 import com.github.sanoyuji1007.SAOMod.block.SaoModBlocks;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
+import com.github.sanoyuji1007.SAOMod.item.SaoModTabs;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class SaoMod
 
         //  アイテムレジストリをイベントバスに登録
         SaoModItems.register(modEventBus);
+        //  クリエイティブタブレジストリをイベントバスに登録
+        SaoModTabs.register(modEventBus);
         //  ブロックレジストリをイベントバスに登録
         SaoModBlocks.reister(modEventBus);
 
