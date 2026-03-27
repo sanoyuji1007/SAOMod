@@ -65,6 +65,7 @@ public class SaoMod
             event.accept(SaoModItems.INVISIBLE_CRYSTAL);
             event.accept(SaoModItems.EXPLOSION_CRYSTAL);
             event.accept(SaoModBlocks.ORIHALCON_BLOCK);
+            event.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK);
         }
     }
 
