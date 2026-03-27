@@ -26,6 +26,9 @@ public class SaoModBlocks {
     public static final RegistryObject<Block>ORIHALCON_BLOCK =registerBlockItem("orihalcon_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.ANVIL)));
 
+    public static final RegistryObject<Block>RAW_ORIHALCON_BLOCK =registerBlockItem("raw_orihalcon_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.ANVIL)));
+
     private static <T extends Block>RegistryObject<T>registerBlockItem(String name, Supplier<T> supplier){
         RegistryObject<T>block=BLOCKS.register(name,supplier);
         SaoModItems.ITEMS.register(name,
