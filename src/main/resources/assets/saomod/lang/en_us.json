@@ -8,5 +8,7 @@
   "item.saomod.speed_crystal": "Speed Crystal",
   "item.saomod.jump_crystal": "Jump Crystal",
   "item.saomod.invisible_crystal": "Invisible Crystal",
-  "item.saomod.explosion_crystal": "Explosion Crystal"
+  "item.saomod.explosion_crystal": "Explosion Crystal",
+  "item.saomod.orihalcon_block": "Orihalcon Block",
+  "item.saomod.raw_orihalcon_block": "Raw Orihalcon Block"
 }
