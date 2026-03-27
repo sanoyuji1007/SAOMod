@@ -10,5 +10,6 @@
   "item.saomod.invisible_crystal": "Invisible Crystal",
   "item.saomod.explosion_crystal": "Explosion Crystal",
   "item.saomod.orihalcon_block": "Orihalcon Block",
-  "item.saomod.raw_orihalcon_block": "Raw Orihalcon Block"
+  "item.saomod.raw_orihalcon_block": "Raw Orihalcon Block",
+  "creativetabs.sao_mod_tab": "SAOMod"
 }

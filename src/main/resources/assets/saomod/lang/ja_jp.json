@@ -10,5 +10,6 @@
   "item.saomod.invisible_crystal": "透明化結晶",
   "item.saomod.explosion_crystal": "爆発結晶",
   "item.saomod.orihalcon_block": "オリハルコンブロック",
-  "item.saomod.raw_orihalcon_block": "オリハルコンの原石"
+  "item.saomod.raw_orihalcon_block": "オリハルコンの原石",
+  "creativetabs.sao_mod_tab": "SAOMod"
 }
