@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "saomod:raw_orihalcon_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "saomod:raw_orihalcon"
+  }
+}
