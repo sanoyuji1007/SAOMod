@@ -18,6 +18,7 @@ public class SaoModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlockWithItem(SaoModBlocks.ORIHALCON_BLOCK);
         simpleBlockWithItem(SaoModBlocks.RAW_ORIHALCON_BLOCK);
+        simpleBlockWithItem(SaoModBlocks.SAO_BLOCK);
     }
 
     private void simpleBlockWithItem(RegistryObject<Block> block) {

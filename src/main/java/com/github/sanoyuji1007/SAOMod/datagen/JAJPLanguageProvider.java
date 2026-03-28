@@ -32,5 +32,6 @@ public class JAJPLanguageProvider extends LanguageProvider {
         //block
         addBlock(SaoModBlocks.ORIHALCON_BLOCK, "オリハルコンブロック");
         addBlock(SaoModBlocks.RAW_ORIHALCON_BLOCK, "オリハルコンの原石ブロック");
+        addBlock(SaoModBlocks.SAO_BLOCK, "SAOブロック");
     }
 }

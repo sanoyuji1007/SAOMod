@@ -35,6 +35,8 @@ public class SaoModTabs {
                         //block
                         pOutput.accept(SaoModBlocks.ORIHALCON_BLOCK.get());
                         pOutput.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK.get());
+                        pOutput.accept(SaoModBlocks.SAO_BLOCK.get());
+
                     }))
                     .build());
 

@@ -32,5 +32,6 @@ public class ENUSLanguageProvider extends LanguageProvider {
         //block
         addBlock(SaoModBlocks.ORIHALCON_BLOCK, "Orihalcon Block");
         addBlock(SaoModBlocks.RAW_ORIHALCON_BLOCK, "Raw Orihalcon Block");
+        addBlock(SaoModBlocks.SAO_BLOCK, "SAO Block");
     }
 }

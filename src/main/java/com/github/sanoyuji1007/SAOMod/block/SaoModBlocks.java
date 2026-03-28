@@ -21,14 +21,28 @@ public class SaoModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, SaoMod.MOD_ID);
 
     //  レジストリにブロックを登録
-    //  ダイヤモンドブロックの設定をコピー
-    //  金床の設置音を設定
+    /**
+     * オリハルコンブロックの登録オブジェクト。
+     *ダイヤモンドブロックと同等の性質を持ち、金属的な音を再生する。
+     */
     public static final RegistryObject<Block>ORIHALCON_BLOCK =registerBlockItem("orihalcon_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.ANVIL)));
-
+    /**
+     * オリハルコンの鉱石の登録オブジェクト。
+     *ダイヤモンドブロックと同等の性質を持ち、金属的な音を再生する。
+     */
     public static final RegistryObject<Block>RAW_ORIHALCON_BLOCK =registerBlockItem("raw_orihalcon_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.ANVIL)));
+    /**
+     * SAOブロックの登録オブジェクト。
+     *ダイヤモンドブロックと同等の性質を持ち、金属的な音を再生する。
+     */
+    public static final RegistryObject<Block>SAO_BLOCK =registerBlockItem("sao_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.ANVIL)));
 
+
+
+    //  ブロックと対応するBlockItemを同時に登録するヘルパーメソッド。
     private static <T extends Block>RegistryObject<T>registerBlockItem(String name, Supplier<T> supplier){
         RegistryObject<T>block=BLOCKS.register(name,supplier);
         SaoModItems.ITEMS.register(name,
