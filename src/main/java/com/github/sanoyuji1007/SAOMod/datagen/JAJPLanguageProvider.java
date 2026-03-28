@@ -18,6 +18,14 @@ public class JAJPLanguageProvider extends LanguageProvider {
         //Item
         addItem(SaoModItems.RAW_ORIHALCON, "オリハルコンの原石");
         addItem(SaoModItems.ORIHALCON_INGOT, "オリハルコンインゴット");
+        addItem(SaoModItems.HEAL_CRYSTAL, "回復結晶");
+        addItem(SaoModItems.FIRE_CRYSTAL, "炎魔法結晶");
+        addItem(SaoModItems.ICE_CRYSTAL, "氷魔法結晶");
+        addItem(SaoModItems.THUNDER_CRYSTAL, "雷魔法結晶");
+        addItem(SaoModItems.SPEED_CRYSTAL, "移動速度上昇結晶");
+        addItem(SaoModItems.JUMP_CRYSTAL, "飛翔結晶");
+        addItem(SaoModItems.INVISIBLE_CRYSTAL, "透明化結晶");
+        addItem(SaoModItems.EXPLOSION_CRYSTAL, "爆発結晶");
         //creativetab
         add("creativetabs.sao_mod_tab", "SAOMod");
         //block

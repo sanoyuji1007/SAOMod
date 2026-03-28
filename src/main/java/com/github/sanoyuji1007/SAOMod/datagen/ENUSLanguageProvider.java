@@ -18,6 +18,14 @@ public class ENUSLanguageProvider extends LanguageProvider {
         //Item
         addItem(SaoModItems.RAW_ORIHALCON, "Raw Orihalcon");
         addItem(SaoModItems.ORIHALCON_INGOT, "Orihalcon Ingot");
+        addItem(SaoModItems.HEAL_CRYSTAL, "Healing Crystal");
+        addItem(SaoModItems.FIRE_CRYSTAL, "Fire Crystal");
+        addItem(SaoModItems.ICE_CRYSTAL, "Ice Crystal");
+        addItem(SaoModItems.THUNDER_CRYSTAL, "Thunder Crystal");
+        addItem(SaoModItems.SPEED_CRYSTAL, "Speed Crystal");
+        addItem(SaoModItems.JUMP_CRYSTAL, "Jump Crystal");
+        addItem(SaoModItems.INVISIBLE_CRYSTAL, "Invisible Crystal");
+        addItem(SaoModItems.EXPLOSION_CRYSTAL, "Explosion Crystal");
         //creativetab
         add("creativetabs.sao_mod_tab", "SAOMod");
         //block

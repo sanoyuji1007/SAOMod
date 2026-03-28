@@ -1,3 +1,11 @@
-// 1.20.1	2026-03-28T12:17:47.1872684	Item Models: saomod
+// 1.20.1	2026-03-28T13:16:22.3988804	Item Models: saomod
+ce507caef7fdcf4fc0c5d2a097b67b71cbf476fd assets/saomod/models/item/explosion_crystal.json
+c0ad55706cea5599c4448a74aef8a05820f62d90 assets/saomod/models/item/fire_crystal.json
+9d72c3a07c1fc40df76faf72f9f622c9b2cc3da7 assets/saomod/models/item/heal_crystal.json
+4d809f069b671eb6f33faa6ee101cf42a88a916c assets/saomod/models/item/ice_crystal.json
+477063a4b9522a6fe8c7e50b16b51c76f3538d2c assets/saomod/models/item/invisible_crystal.json
+918d9de45d1729ad88a90c3429508362f54ae93d assets/saomod/models/item/jump_crystal.json
 53369bc865f7d7b347a0b28b2a90c9fad5191612 assets/saomod/models/item/orihalcon_ingot.json
 690fe772d74b3da41ada1e18e60385b1f2cceea1 assets/saomod/models/item/raw_orihalcon.json
+6e36ec41e42657418f56fd367965c031343991a3 assets/saomod/models/item/speed_crystal.json
+6cf3ccc38aa791a10418bb9a22dabb7600bf52cc assets/saomod/models/item/thunder_crystal.json

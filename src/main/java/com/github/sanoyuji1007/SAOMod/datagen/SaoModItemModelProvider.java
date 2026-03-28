@@ -16,5 +16,13 @@ public class SaoModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(SaoModItems.RAW_ORIHALCON.get());
         basicItem(SaoModItems.ORIHALCON_INGOT.get());
+        basicItem(SaoModItems.HEAL_CRYSTAL.get());
+        basicItem(SaoModItems.FIRE_CRYSTAL.get());
+        basicItem(SaoModItems.ICE_CRYSTAL.get());
+        basicItem(SaoModItems.THUNDER_CRYSTAL.get());
+        basicItem(SaoModItems.SPEED_CRYSTAL.get());
+        basicItem(SaoModItems.JUMP_CRYSTAL.get());
+        basicItem(SaoModItems.INVISIBLE_CRYSTAL.get());
+        basicItem(SaoModItems.EXPLOSION_CRYSTAL.get());
     }
 }
