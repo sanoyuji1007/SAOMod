@@ -11,6 +11,9 @@ public class SaoModLootTables {
         return new LootTableProvider(output, Set.of(), List.of(
                 new LootTableProvider.SubProviderEntry(
                         SaoModBlockLootTables::new, LootContextParamSets.BLOCK
+                ),
+                new LootTableProvider.SubProviderEntry(
+                        CustomEntityLootProvider::new, LootContextParamSets.ENTITY
                 )
         ));
     }
