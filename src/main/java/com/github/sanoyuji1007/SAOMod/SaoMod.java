@@ -1,6 +1,7 @@
 package com.github.sanoyuji1007.SAOMod;
 
 import com.github.sanoyuji1007.SAOMod.block.SaoModBlocks;
+import com.github.sanoyuji1007.SAOMod.entity.SaoModEntities;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
 import com.github.sanoyuji1007.SAOMod.item.SaoModTabs;
 import com.mojang.logging.LogUtils;
@@ -39,6 +40,8 @@ public class SaoMod
         SaoModTabs.register(modEventBus);
         //  ブロックレジストリをイベントバスに登録
         SaoModBlocks.reister(modEventBus);
+        // エンティティレジストリをイベントバスに登録
+        SaoModEntities.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
