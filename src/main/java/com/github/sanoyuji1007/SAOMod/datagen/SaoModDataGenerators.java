@@ -21,9 +21,9 @@ public class SaoModDataGenerators {
         // アイテム用のモデルファイルの生成
         generator.addProvider(event.includeClient(), new SaoModItemModelProvider(packOutput
                 , existingFileHelper));
-//        // ブロック用のモデルファイルの生成
-//        generator.addProvider(event.includeClient(),
-//                new SaoModBlockStateProvider(packOutput, existingFileHelper));
+        // ブロック用のモデルファイルの生成
+        generator.addProvider(event.includeClient(),
+                new SaoModBlockStateProvider(packOutput, existingFileHelper));
 //        // 言語ファイル（英語）
 //        generator.addProvider(event.includeClient(), new ENUSLanguageProvider(packOutput));
 //        // 言語ファイル（日本語）
