@@ -26,6 +26,7 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SaoModItems.JUMP_CRYSTAL, "Jump Crystal");
         addItem(SaoModItems.INVISIBLE_CRYSTAL, "Invisible Crystal");
         addItem(SaoModItems.EXPLOSION_CRYSTAL, "Explosion Crystal");
+        addItem(SaoModItems.ELUCIDATOR, "Elucidator");
         //creativetab
         add("creativetabs.sao_mod_tab", "SAOMod");
         //block

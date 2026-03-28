@@ -14,6 +14,7 @@ public class SaoModItems {
     //  レジストリにアイテムを追加
     public static final RegistryObject<Item> RAW_ORIHALCON = ITEMS.register("raw_orihalcon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ORIHALCON_INGOT = ITEMS.register("orihalcon_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELUCIDATOR= ITEMS.register("elucidator", () -> new Item(new Item.Properties()));
 
     //  結晶シリーズの登録
     public static final RegistryObject<Item> HEAL_CRYSTAL = ITEMS.register("heal_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.HEAL));

@@ -24,5 +24,6 @@ public class SaoModItemModelProvider extends ItemModelProvider {
         basicItem(SaoModItems.JUMP_CRYSTAL.get());
         basicItem(SaoModItems.INVISIBLE_CRYSTAL.get());
         basicItem(SaoModItems.EXPLOSION_CRYSTAL.get());
+        basicItem(SaoModItems.ELUCIDATOR.get());
     }
 }
