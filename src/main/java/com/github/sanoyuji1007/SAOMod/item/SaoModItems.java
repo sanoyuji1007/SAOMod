@@ -1,11 +1,15 @@
 package com.github.sanoyuji1007.SAOMod.item;
 
 import com.github.sanoyuji1007.SAOMod.SaoMod;
+import com.github.sanoyuji1007.SAOMod.entity.SaoModEntities;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.awt.*;
 
 public class SaoModItems {
     //  レジストリを作成
@@ -15,6 +19,10 @@ public class SaoModItems {
     public static final RegistryObject<Item> RAW_ORIHALCON = ITEMS.register("raw_orihalcon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ORIHALCON_INGOT = ITEMS.register("orihalcon_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELUCIDATOR= ITEMS.register("elucidator", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLACK_SLIME_SPWAN_EGG= ITEMS.register("black_slime_spwan_egg",
+            () -> new ForgeSpawnEggItem(SaoModEntities.BLACK_SLIME,
+            Color.MAGENTA.getRGB(),Color.lightGray.getRGB(),
+            new Item.Properties()));
 
     //  結晶シリーズの登録
     public static final RegistryObject<Item> HEAL_CRYSTAL = ITEMS.register("heal_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.HEAL));
