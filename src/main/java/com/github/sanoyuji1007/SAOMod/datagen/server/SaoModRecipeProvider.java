@@ -1,4 +1,4 @@
-package com.github.sanoyuji1007.SAOMod.datagen;
+package com.github.sanoyuji1007.SAOMod.datagen.server;
 
 import com.github.sanoyuji1007.SAOMod.block.SaoModBlocks;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;

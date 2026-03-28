@@ -1,7 +1,12 @@
 package com.github.sanoyuji1007.SAOMod.datagen;
 
 import com.github.sanoyuji1007.SAOMod.SaoMod;
-import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
+import com.github.sanoyuji1007.SAOMod.datagen.client.ENUSLanguageProvider;
+import com.github.sanoyuji1007.SAOMod.datagen.client.JAJPLanguageProvider;
+import com.github.sanoyuji1007.SAOMod.datagen.client.SaoModBlockStateProvider;
+import com.github.sanoyuji1007.SAOMod.datagen.client.SaoModItemModelProvider;
+import com.github.sanoyuji1007.SAOMod.datagen.server.SaoModRecipeProvider;
+import com.github.sanoyuji1007.SAOMod.datagen.server.loot.SaoModLootTables;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -29,6 +34,9 @@ public class SaoModDataGenerators {
         // 言語ファイル（日本語）
         generator.addProvider(event.includeClient(), new JAJPLanguageProvider(packOutput));
         // レシピ
-        generator.addProvider(event.includeClient(), new SaoModRecipeProvider(packOutput));
+        generator.addProvider(event.includeServer(), new SaoModRecipeProvider(packOutput));
+        //  ルートテーブル
+        generator.addProvider(event.includeServer(), SaoModLootTables.create(packOutput));
+
     }
 }

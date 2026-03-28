@@ -1,4 +1,4 @@
-package com.github.sanoyuji1007.SAOMod.datagen;
+package com.github.sanoyuji1007.SAOMod.datagen.client;
 
 import com.github.sanoyuji1007.SAOMod.SaoMod;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
