@@ -2,6 +2,7 @@ package com.github.sanoyuji1007.SAOMod.datagen.client;
 
 import com.github.sanoyuji1007.SAOMod.SaoMod;
 import com.github.sanoyuji1007.SAOMod.block.SaoModBlocks;
+import com.github.sanoyuji1007.SAOMod.entity.SaoModEntities;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
@@ -33,5 +34,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addBlock(SaoModBlocks.ORIHALCON_BLOCK, "オリハルコンブロック");
         addBlock(SaoModBlocks.RAW_ORIHALCON_BLOCK, "オリハルコンの原石ブロック");
         addBlock(SaoModBlocks.SAO_BLOCK, "SAOブロック");
+        //entity
+        addEntityType(SaoModEntities.BLACK_SLIME,"ブラックスライム");
     }
 }
