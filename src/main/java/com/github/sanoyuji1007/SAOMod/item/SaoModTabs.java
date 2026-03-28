@@ -20,8 +20,18 @@ public class SaoModTabs {
                     .title(Component.translatable("creativetabs.sao_mod_tab"))
                     .icon(SaoModItems.RAW_ORIHALCON.get()::getDefaultInstance)
                     .displayItems(((pParameters, pOutput) -> {
+                        //item
                         pOutput.accept(SaoModItems.RAW_ORIHALCON.get());
                         pOutput.accept(SaoModItems.ORIHALCON_INGOT.get());
+                        pOutput.accept(SaoModItems.HEAL_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.FIRE_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.ICE_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.THUNDER_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.SPEED_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.JUMP_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.INVISIBLE_CRYSTAL.get());
+                        pOutput.accept(SaoModItems.EXPLOSION_CRYSTAL.get());
+                        //block
                         pOutput.accept(SaoModBlocks.ORIHALCON_BLOCK.get());
                         pOutput.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK.get());
                     }))

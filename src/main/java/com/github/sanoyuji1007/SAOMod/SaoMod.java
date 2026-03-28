@@ -56,20 +56,20 @@ public class SaoMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         //  もし開いているタブが「材料」タブだったら、アイテムを表示
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(SaoModItems.RAW_ORIHALCON);
-            event.accept(SaoModItems.ORIHALCON_INGOT);
-            event.accept(SaoModItems.HEAL_CRYSTAL);
-            event.accept(SaoModItems.FIRE_CRYSTAL);
-            event.accept(SaoModItems.ICE_CRYSTAL);
-            event.accept(SaoModItems.THUNDER_CRYSTAL);
-            event.accept(SaoModItems.SPEED_CRYSTAL);
-            event.accept(SaoModItems.JUMP_CRYSTAL);
-            event.accept(SaoModItems.INVISIBLE_CRYSTAL);
-            event.accept(SaoModItems.EXPLOSION_CRYSTAL);
-            event.accept(SaoModBlocks.ORIHALCON_BLOCK);
-            event.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK);
-        }
+//        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+//            event.accept(SaoModItems.RAW_ORIHALCON);
+//            event.accept(SaoModItems.ORIHALCON_INGOT);
+//            event.accept(SaoModItems.HEAL_CRYSTAL);
+//            event.accept(SaoModItems.FIRE_CRYSTAL);
+//            event.accept(SaoModItems.ICE_CRYSTAL);
+//            event.accept(SaoModItems.THUNDER_CRYSTAL);
+//            event.accept(SaoModItems.SPEED_CRYSTAL);
+//            event.accept(SaoModItems.JUMP_CRYSTAL);
+//            event.accept(SaoModItems.INVISIBLE_CRYSTAL);
+//            event.accept(SaoModItems.EXPLOSION_CRYSTAL);
+//            event.accept(SaoModBlocks.ORIHALCON_BLOCK);
+//            event.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK);
+//        }
     }
 
 
