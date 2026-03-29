@@ -38,3 +38,6 @@ Thumbs.db
 
 # Minecraft specific
 assets/*/lang/*.cache
+
+# runData自動生成
+src/generated/
