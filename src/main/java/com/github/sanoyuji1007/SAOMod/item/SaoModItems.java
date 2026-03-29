@@ -23,6 +23,7 @@ public class SaoModItems {
             () -> new ForgeSpawnEggItem(SaoModEntities.BLACK_SLIME,
             Color.MAGENTA.getRGB(),Color.lightGray.getRGB(),
             new Item.Properties()));
+    public static final RegistryObject<Item> NERVE_GEAR= ITEMS.register("nerve_gear", () -> new Item(new Item.Properties()));
 
     //  結晶シリーズの登録
     public static final RegistryObject<Item> HEAL_CRYSTAL = ITEMS.register("heal_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.HEAL));

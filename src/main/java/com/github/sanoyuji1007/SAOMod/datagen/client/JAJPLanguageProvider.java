@@ -29,6 +29,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SaoModItems.EXPLOSION_CRYSTAL, "爆発結晶");
         addItem(SaoModItems.ELUCIDATOR, "エリシュデータ");
         addItem(SaoModItems.BLACK_SLIME_SPWAN_EGG, "ブラックスライムのスポーンエッグ");
+        addItem(SaoModItems.NERVE_GEAR, "ナーブギア");
         //creativetab
         add("creativetabs.sao_mod_tab", "SAOMod");
         //block

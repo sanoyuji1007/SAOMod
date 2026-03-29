@@ -33,6 +33,7 @@ public class SaoModTabs {
                         pOutput.accept(SaoModItems.EXPLOSION_CRYSTAL.get());
                         pOutput.accept(SaoModItems.ELUCIDATOR.get());
                         pOutput.accept(SaoModItems.BLACK_SLIME_SPWAN_EGG.get());
+                        pOutput.accept(SaoModItems.NERVE_GEAR.get());
                         //block
                         pOutput.accept(SaoModBlocks.ORIHALCON_BLOCK.get());
                         pOutput.accept(SaoModBlocks.RAW_ORIHALCON_BLOCK.get());

@@ -25,6 +25,7 @@ public class SaoModItemModelProvider extends ItemModelProvider {
         basicItem(SaoModItems.INVISIBLE_CRYSTAL.get());
         basicItem(SaoModItems.EXPLOSION_CRYSTAL.get());
         basicItem(SaoModItems.ELUCIDATOR.get());
+        basicItem(SaoModItems.NERVE_GEAR.get());
 
         withExistingParent(SaoModItems.BLACK_SLIME_SPWAN_EGG.getId().getPath(),
                 mcLoc("item/template_spawn_egg"));
