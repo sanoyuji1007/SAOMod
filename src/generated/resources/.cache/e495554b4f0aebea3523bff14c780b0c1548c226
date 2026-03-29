@@ -1,4 +1,0 @@
-// 1.20.1	2026-03-28T21:45:37.3699363	Tags for minecraft:block mod id saomod
-69e42b8bc0c60330fb14515d352e215ffcc0015d data/forge/tags/blocks/needs_netherite_tool.json
-bba941647efe900b2de02cf3818f716a35cc9eab data/minecraft/tags/blocks/mineable/pickaxe.json
-aa344a989e93017a6a0593af3f127b0e4b2cbfcf data/minecraft/tags/blocks/needs_diamond_tool.json
