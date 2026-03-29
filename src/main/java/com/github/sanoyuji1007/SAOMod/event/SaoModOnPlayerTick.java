@@ -31,8 +31,8 @@ public class SaoModOnPlayerTick {
 
         ItemStack helmet = player.getItemBySlot(EquipmentSlot.HEAD);
 
-        if (helmet.getItem() == Items.DIAMOND_HELMET) {
-            player.getPersistentData().putInt("sao_delay", 20); // 1秒
+        if (helmet.getItem() == SaoModItems.NERVE_GEAR.get()) {
+            player.getPersistentData().putInt("sao_delay", 40); // 1秒
         }
     }
 

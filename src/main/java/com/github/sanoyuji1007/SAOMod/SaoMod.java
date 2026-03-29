@@ -4,6 +4,7 @@ import com.github.sanoyuji1007.SAOMod.block.SaoModBlocks;
 import com.github.sanoyuji1007.SAOMod.entity.SaoModEntities;
 import com.github.sanoyuji1007.SAOMod.item.SaoModItems;
 import com.github.sanoyuji1007.SAOMod.item.SaoModTabs;
+import com.github.sanoyuji1007.SAOMod.worldgen.SaoModChunkGenerator;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,6 +43,8 @@ public class SaoMod
         SaoModBlocks.reister(modEventBus);
         // エンティティレジストリをイベントバスに登録
         SaoModEntities.register(modEventBus);
+        //  チャンクレジストリをイベントバスに登録
+        SaoModChunkGenerator.CHUNK_GENERATORS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
