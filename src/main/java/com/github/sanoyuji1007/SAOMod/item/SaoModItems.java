@@ -2,6 +2,8 @@ package com.github.sanoyuji1007.SAOMod.item;
 
 import com.github.sanoyuji1007.SAOMod.SaoMod;
 import com.github.sanoyuji1007.SAOMod.entity.SaoModEntities;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,7 +25,13 @@ public class SaoModItems {
             () -> new ForgeSpawnEggItem(SaoModEntities.BLACK_SLIME,
             Color.MAGENTA.getRGB(),Color.lightGray.getRGB(),
             new Item.Properties()));
-    public static final RegistryObject<Item> NERVE_GEAR= ITEMS.register("nerve_gear", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NERVE_GEAR = ITEMS.register("nerve_gear",
+            () -> new ArmorItem(
+                    ArmorMaterials.DIAMOND, // とりあえずダイヤでOK（後で自作も可）
+                    ArmorItem.Type.HELMET,  // ← これが「頭装備」
+                    new Item.Properties()
+            )
+    );
 
     //  結晶シリーズの登録
     public static final RegistryObject<Item> HEAL_CRYSTAL = ITEMS.register("heal_crystal", () -> new CrystalliteItem(new Item.Properties(), CrystalType.HEAL));
